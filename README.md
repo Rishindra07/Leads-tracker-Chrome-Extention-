@@ -27,17 +27,28 @@ chrome://extensions/
 4.Click "Load unpacked" and select the folder containing this extension
 
 5.You’ll see the “Leads-tracker” icon in your extensions bar
+
+
 6.📂 Project Structure
 bash
 
 Leads-tracker-Chrome-Extention/
+
 ├── index.html         # Popup UI
+
 ├── index.js           # Logic for saving and displaying leads
+
 ├── index.css          # Basic styling
+
 ├── icon.png           # Icon used in extension
+
 └── manifest.json      # Chrome extension config
 
+
+
+
 7.🛠 Technologies Used
+
 HTML
 
 CSS
@@ -46,7 +57,10 @@ JavaScript
 
 Chrome Extensions API (tabs, localStorage)
 
+
+
 8.📝 How to Use
+
 Type a URL and click "SAVE INPUT"
 
 Or click "SAVE TAB" to save the current tab's URL
@@ -54,6 +68,9 @@ Or click "SAVE TAB" to save the current tab's URL
 Double-click "DELETE ALL" to clear all saved links
 
 Click any saved link to open it in a new tab
+
+
+
 9.ScreenShot:
 <img width="1742" height="531" alt="image" src="https://github.com/user-attachments/assets/84c12fb0-a06e-4e4c-a0dc-d0cacbb31101" />
 
